@@ -1,0 +1,32 @@
+# Curry.
+In mathematics and computer science, currying is the technique
+of transforming a function that takes multiple arguments (or an n-tuple
+of arguments) in such a way that it can be called as a chain of
+functions each with a single argument (partial application).
+[More](http://en.wikipedia.org/wiki/Currying)
+
+# For Ruby.
+Ruby 1.9.x has currying already. For 1.8.7 use this gem. It
+adds Proc#curry that does just its stuff. Warning - it does not affect arity.
+[More](http://www.khelll.com/blog/ruby/ruby-currying/)
+
+# Installation.
+
+In Gemfile:
+
+```ruby
+gem 'curry_for_ruby18', :platforms => [:ruby18]
+```
+
+# Usage
+
+```ruby
+a = lambda {|x, y, z| x + y + z}
+
+a.call(1, 2, 3) # => 6
+a.curry(1).call(2, 3) # => 6
+```
+
+# Credits
+
+* Thank you very much, [khell](http://www.khelll.com/blog/ruby/ruby-currying/).

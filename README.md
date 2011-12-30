@@ -31,4 +31,4 @@ a.curry(1).call(2, 3) # => 6
 
 # Credits
 
-* Thank you very much, [khell](http://www.khelll.com/blog/ruby/ruby-currying/).
+* Thank you very much, [khelll](http://www.khelll.com/blog/ruby/ruby-currying/).

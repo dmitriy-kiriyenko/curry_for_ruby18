@@ -1,4 +1,5 @@
 # Curry.
+[![Build Status](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18.png)](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18)
 In mathematics and computer science, currying is the technique
 of transforming a function that takes multiple arguments (or an n-tuple
 of arguments) in such a way that it can be called as a chain of

@@ -1,4 +1,4 @@
-# Curry.
+# Curry
 [![Build Status](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18.png)](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18)
 
 In mathematics and computer science, currying is the technique
@@ -7,12 +7,12 @@ of arguments) in such a way that it can be called as a chain of
 functions each with a single argument (partial application).
 [More](http://en.wikipedia.org/wiki/Currying)
 
-# For Ruby.
+# For Ruby
 Ruby 1.9.x has currying already. For 1.8.7 use this gem. It
 adds Proc#curry that does just its stuff. Warning - it does not affect arity.
 [More](http://www.khelll.com/blog/ruby/ruby-currying/)
 
-# Installation.
+# Installation
 
 In Gemfile:
 

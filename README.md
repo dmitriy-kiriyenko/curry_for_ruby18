@@ -1,5 +1,5 @@
 # Curry
-[![Build Status](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18.png)](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18)
+[![Build Status](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18.png)](http://travis-ci.org/dmitriy-kiriyenko/curry_for_ruby18) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/dmitriy-kiriyenko/curry_for_ruby18)
 
 In mathematics and computer science, currying is the technique
 of transforming a function that takes multiple arguments (or an n-tuple
